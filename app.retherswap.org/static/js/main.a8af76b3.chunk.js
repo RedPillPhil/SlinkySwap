@@ -93,9 +93,9 @@
         290: function(e, t, n) {
             e.exports = n.p + "static/media/Hypra_trans-logo.fea24501.png"
         },
-        291: function(e, t, n) {
-            e.exports = n.p + "static/media/hypra-logo.fea24501.png"
-        },
+291: function(e, t, n) {
+    e.exports = "https://traderjoexyz.com/static/media/ether_3x.7c594521e61dc91aea02.webp";
+},
         343: function(e) {
             e.exports = JSON.parse('[{"constant":true,"inputs":[],"name":"getCurrentBlockTimestamp","outputs":[{"name":"timestamp","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[{"components":[{"name":"target","type":"address"},{"name":"callData","type":"bytes"}],"name":"calls","type":"tuple[]"}],"name":"aggregate","outputs":[{"name":"blockNumber","type":"uint256"},{"name":"returnData","type":"bytes[]"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[],"name":"getLastBlockHash","outputs":[{"name":"blockHash","type":"bytes32"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[{"name":"addr","type":"address"}],"name":"getEthBalance","outputs":[{"name":"balance","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[],"name":"getCurrentBlockDifficulty","outputs":[{"name":"difficulty","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[],"name":"getCurrentBlockGasLimit","outputs":[{"name":"gaslimit","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[],"name":"getCurrentBlockCoinbase","outputs":[{"name":"coinbase","type":"address"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[{"name":"blockNumber","type":"uint256"}],"name":"getBlockHash","outputs":[{"name":"blockHash","type":"bytes32"}],"payable":false,"stateMutability":"view","type":"function"}]')
         },
@@ -425,8 +425,8 @@
                         symbol: "MATIC"
                     },
                     [d.a.HYPRA]: {
-                        name: "Hypra",
-                        symbol: "HYP"
+                        name: "Ether",
+                        symbol: "ETH"
                     }
                 },
                 H = {
@@ -1628,7 +1628,7 @@
                     bg5: e ? "#100119" : "#888D9B",
                     modalBG: e ? "rgba(0,0,0,.425)" : "rgba(0,0,0,0.3)",
                     advancedBG: e ? "rgba(0,0,0,0.1)" : "rgba(255,255,255,0.6)",
-                    primary1: "#EA8C44",
+                    primary1: "#c3c3c3",
                     primary2: "#3099db",
                     primary3: "#389fe0",
                     primary4: "#54afe8",
