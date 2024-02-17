@@ -11846,7 +11846,7 @@
                                     n = (await e.json()).result.coin_usd;
                                 t(n)
                             } catch (o) {
-                                console.error("Error fetching HYP price:", o), i("Failed to fetch HYP price. Please try again.")
+                                console.error("Error fetching ETH price:", o), i("Failed to fetch ETH price. Please try again.")
                             } finally {
                                 a(!1)
                             }
