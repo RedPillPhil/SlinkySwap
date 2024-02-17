@@ -1,0 +1,7 @@
+date	size'/'remotesize	flags(request:Update,Range state:File response:Modified,Chunked,gZipped)	statuscode	status ('servermsg')	MIME	Etag|Date	URL	localfile	(from URL)
+18:07:48	3097/3097	---M-Z	200	added ('OK')	text/html	etag:W/%22c19-18d42876510%22	https://app.retherswap.org/swap/	C:/My%20Web%20Sites/retherswap/app.retherswap.org/swap/index.html	(from )
+18:07:48	1599/1599	---M-Z	200	added ('OK')	text/html	etag:W/%22c19-18d42876510%22	https://app.retherswap.org/robots.txt		(from )
+18:07:48	7600/7600	---M--	200	added ('OK')	image/png	date:Thu,%2028%20Sep%202023%2003:23:56%20GMT	https://app.retherswap.org/favicon.png	C:/My%20Web%20Sites/retherswap/app.retherswap.org/favicon.png	(from https://app.retherswap.org/swap/)
+18:07:49	5111/5111	---M-Z	200	added ('OK')	text/css	etag:W/%2213f7-18d42876510%22	https://app.retherswap.org/static/css/3.e2991308.chunk.css	C:/My%20Web%20Sites/retherswap/app.retherswap.org/static/css/3.e2991308.chunk.css	(from https://app.retherswap.org/swap/)
+18:07:55	409057/409057	---M-Z	200	added ('OK')	application/javascript	etag:W/%2263de1-18d42876510%22	https://app.retherswap.org/static/js/main.a8af76b3.chunk.js	C:/My%20Web%20Sites/retherswap/app.retherswap.org/static/js/main.a8af76b3.chunk.js	(from https://app.retherswap.org/swap/)
+18:07:56	2794491/2794491	---MCZ	200	added ('OK')	application/javascript	etag:W/%222aa3fb-18d42876510%22	https://app.retherswap.org/static/js/3.062b8b1c.chunk.js	C:/My%20Web%20Sites/retherswap/app.retherswap.org/static/js/3.062b8b1c.chunk.js	(from https://app.retherswap.org/swap/)
