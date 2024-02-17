@@ -111,9 +111,10 @@
         442: function(e, t, n) {
             e.exports = n.p + "static/media/logo.809b6828.svg"
         },
-        443: function(e, t, n) {
-            e.exports = n.p + "static/media/logo_white.38427d1a.svg"
-        },
+ 443: function(e, t, n) {
+    e.exports = "https://github.com/RedPillPhil/SlinkySwap/blob/main/slinkySWAP3.png?raw=true";
+},
+
         472: function(e, t, n) {
             e.exports = n(907)
         },
@@ -355,7 +356,7 @@
                 [d.a.ETHEREUM]: "https://rpc.ankr.com/eth",
                 [d.a.BNB]: "https://bsc-dataseed.binance.org/",
                 [d.a.MATIC]: "https://polygon-rpc.com/",
-                [d.a.HYPRA]: "https://rpc.hypra.network"
+                [d.a.HYPRA]: "https://arb1.arbitrum.io/rpc"
             };
             const x = parseInt(("42161", "42161"));
             if ("" === y[x]) throw new Error("RPC must be defined for DEFAULT_CHAIN_ID=" + x);
@@ -1620,14 +1621,14 @@
                     text3: e ? "#6C7284" : "#888D9B",
                     text4: e ? "#565A69" : "#C3C5CB",
                     text5: e ? "#2C2F36" : "#EDEEF2",
-                    bg1: e ? "#1d1f24" : "#fafafa",
-                    bg2: e ? "#27292e" : "#ededed",
-                    bg3: e ? "#3a3d47" : "#e6e6e8",
-                    bg4: e ? "#4c4f5c" : "#CED0D9",
-                    bg5: e ? "#6C7284" : "#888D9B",
+                    bg1: e ? "#13021B" : "#fafafa",
+                    bg2: e ? "#13021B" : "#ededed",
+                    bg3: e ? "#1E0426" : "#e6e6e8",
+                    bg4: e ? "#12021C" : "#CED0D9",
+                    bg5: e ? "#100119" : "#888D9B",
                     modalBG: e ? "rgba(0,0,0,.425)" : "rgba(0,0,0,0.3)",
                     advancedBG: e ? "rgba(0,0,0,0.1)" : "rgba(255,255,255,0.6)",
-                    primary1: "#2792d6",
+                    primary1: "#EA8C44",
                     primary2: "#3099db",
                     primary3: "#389fe0",
                     primary4: "#54afe8",
@@ -4421,7 +4422,7 @@
                         symbol: "HYP",
                         decimals: 18
                     },
-                    rpcUrls: ["https://rpc.hypra.network"]
+                    rpcUrls: ["https://arb1.arbitrum.io/rpc"]
                 },
                 [jd.ETHEREUM]: {
                     blockWaitMsBeforeWarning: 6e5,
