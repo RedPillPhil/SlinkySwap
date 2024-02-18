@@ -11846,7 +11846,7 @@
                                     n = (await e.json()).result.coin_usd;
                                 t(n)
                             } catch (o) {
-                                console.error("Error fetching ETH price:", o), i("")
+                                console.error("Error fetching ETH price:", o), i("Slinky Swap")
                             } finally {
                                 a(!1)
                             }
