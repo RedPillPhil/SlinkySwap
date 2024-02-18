@@ -4683,7 +4683,7 @@
                         color: "green",
                         marginBottom: "12px"
                     }
-                }, "You're on the Hypra network."), p && l.a.createElement("div", {
+                }, "You're on the Arbitrum network."), p && l.a.createElement("div", {
                     style: {
                         color: "red",
                         marginBottom: "12px"
