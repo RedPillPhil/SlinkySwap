@@ -382,7 +382,7 @@
                     [0, "# Retherswap Grants Program v0.1\n\n*Test*\n\n## Summary:\n*Just a test*\nIf this program proves successful, we hope it will inspire others to follow suit and create their own funding committees for allocating treasury capital\u2014ideally with different specializations.\n"]
                 ]),
                 C = "0x0000000000000000000000000000000000000000",
-                T = "0xb4315e873dbcf96ffd0acd8ea43f689d8c20fb30",
+                T = "0xbee5c10cf6e4f68f831e11c1d9e59b43560b3642",
                 R = new d.j(d.a.HYPRA, "0xCf52025D37f68dEdA9ef8307Ba4474eCbf15C33c", 18, "RETHER", "Retherswap Token"),
                 I = new d.j(d.a.BNB, "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56", 6, "BUSD", "BUSD Token"),
                 S = new d.j(d.a.HYPRA, "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48", 6, "USDC", "USD//C"),
