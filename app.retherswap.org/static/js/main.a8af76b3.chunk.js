@@ -382,13 +382,13 @@
                     [0, "# Retherswap Grants Program v0.1\n\n*Test*\n\n## Summary:\n*Just a test*\nIf this program proves successful, we hope it will inspire others to follow suit and create their own funding committees for allocating treasury capital\u2014ideally with different specializations.\n"]
                 ]),
                 C = "0x0000000000000000000000000000000000000000",
-                T = "0x11FE7aAD506545A3e371D4E4a1bEB1B63000b253",
+                T = "0xb4315e873dbcf96ffd0acd8ea43f689d8c20fb30",
                 R = new d.j(d.a.HYPRA, "0xCf52025D37f68dEdA9ef8307Ba4474eCbf15C33c", 18, "RETHER", "Retherswap Token"),
                 I = new d.j(d.a.BNB, "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56", 6, "BUSD", "BUSD Token"),
                 S = new d.j(d.a.HYPRA, "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48", 6, "USDC", "USD//C"),
                 N = new d.j(d.a.HYPRA, "0xfb6352104fEF2f3CF07A91f73C7f679fF6AB50da", 6, "USDT", "Tether USD"),
                 U = (new d.j(d.a.ETHEREUM, "0xc00e94Cb662C3520282E6f5717214004A7f26888", 18, "COMP", "Compound"), new d.j(d.a.ETHEREUM, "0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2", 18, "MKR", "Maker"), new d.j(d.a.ETHEREUM, "0xD46bA6D942050d489DBd938a2C909A5d5039A161", 9, "AMPL", "Ampleforth")),
-                B = (new d.j(d.a.ETHEREUM, "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599", 8, "WBTC", "Wrapped BTC"), new d.j(d.a.HYPRA, "0x0000000000079c645A9bDE0Bd8Af1775FAF5598A", 18, "WHYP", "Wrapped Hypra"), "0xCf52025D37f68dEdA9ef8307Ba4474eCbf15C33c"),
+                B = (new d.j(d.a.ETHEREUM, "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599", 8, "WBTC", "Wrapped BTC"), new d.j(d.a.HYPRA, "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1", 18, "WHYP", "Wrapped Hypra"), "0xCf52025D37f68dEdA9ef8307Ba4474eCbf15C33c"),
                 P = {
                     [d.a.ETHEREUM]: new d.j(d.a.ETHEREUM, B, 18, "RETHER", "Retherswap Token"),
                     [d.a.BNB]: new d.j(d.a.BNB, B, 18, "RETHER", "Retherswap Token"),
@@ -2794,7 +2794,7 @@
                     console.debug('Failed to parse input amount: "'.concat(e, '"'), n)
                 }
             }
-            const Lo = ["0xa995CBAd84fdeE7608F082bC0dBDB5DdD91D373f", T];
+            const Lo = ["0xaE4EC9901c3076D0DdBe76A520F9E90a6227aCB7", T];
 
             function Wo(e, t) {
                 return e.route.path.some(e => e.address === t) || e.route.pairs.some(e => e.liquidityToken.address === t)
