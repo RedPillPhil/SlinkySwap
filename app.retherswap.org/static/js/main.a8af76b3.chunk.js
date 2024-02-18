@@ -112,7 +112,7 @@
             e.exports = n.p + "static/media/logo.809b6828.svg"
         },
  443: function(e, t, n) {
-    e.exports = "https://github.com/RedPillPhil/SlinkySwap/blob/main/SLINKY-SWAP-2-17-2024%20(1).png?raw=true";
+    e.exports = "https://github.com/RedPillPhil/SlinkySwap/blob/main/SLINKY-SWAP-2-17-2024%20(2).png?raw=true";
 },
 
         472: function(e, t, n) {
