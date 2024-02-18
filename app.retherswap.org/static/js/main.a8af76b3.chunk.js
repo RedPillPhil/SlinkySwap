@@ -91,8 +91,8 @@
             e.exports = n.p + "static/media/metamask.5c2c74f0.png"
         },
         290: function(e, t, n) {
-            e.exports = n.p + "static/media/Hypra_trans-logo.fea24501.png"
-        },
+       e.exports = "https://cryptologos.cc/logos/arbitrum-arb-logo.png?v=025";
+},
 291: function(e, t, n) {
     e.exports = "https://traderjoexyz.com/static/media/ether_3x.7c594521e61dc91aea02.webp";
 },
@@ -112,7 +112,7 @@
             e.exports = n.p + "static/media/logo.809b6828.svg"
         },
  443: function(e, t, n) {
-    e.exports = "https://github.com/RedPillPhil/SlinkySwap/blob/main/slinkySWAP3.png?raw=true";
+    e.exports = "https://github.com/RedPillPhil/SlinkySwap/blob/main/SLINKY-SWAP-2-17-2024%20(1).png?raw=true";
 },
 
         472: function(e, t, n) {
@@ -4406,7 +4406,7 @@
                 wd = n(176),
                 Od = n.n(wd);
             let jd = function(e) {
-                return e[e.HYPRA = 42161] = "HYPRA", e[e.ETHEREUM = 1] = "ETHEREUM", e[e.BNB = 56] = "BNB", e[e.POLYGON = 137] = "POLYGON", e
+                return e[e.HYPRA = 42161] = "ARBITRUM", e[e.ETHEREUM = 1] = "ETHEREUM", e[e.BNB = 56] = "BNB", e[e.POLYGON = 137] = "POLYGON", e
             }({});
             jd.HYPRA, jd.ETHEREUM, jd.BNB, jd.POLYGON, jd.HYPRA, jd.ETHEREUM, jd.BNB, jd.POLYGON;
             const kd = {
@@ -4415,11 +4415,11 @@
                     docs: "https://www.hypra.network/mining.html",
                     explorer: "https://explorer.hypra.network",
                     infoLink: "https://www.hypra.network/mining.html",
-                    label: "Hypra",
+                    label: "Arbitrum",
                     logoUrl: Ed.a,
                     nativeCurrency: {
-                        name: "Hypra Mainnet",
-                        symbol: "HYP",
+                        name: "Arbitrum One",
+                        symbol: "ARB",
                         decimals: 18
                     },
                     rpcUrls: ["https://arb1.arbitrum.io/rpc"]
@@ -4850,7 +4850,7 @@
                     [d.a.ETHEREUM]: "Ethereum",
                     [d.a.MATIC]: "Matic",
                     [d.a.BNB]: "BNB",
-                    [d.a.HYPRA]: "HYPRA"
+                    [d.a.HYPRA]: "ARBITRUM"
                 };
 
             function Uu() {
@@ -8727,7 +8727,7 @@
                     }, [g, h, f]),
                     de = Object(r.useCallback)(e => {
                         const t = AE(e);
-                        f === t ? g ? h.push("/add/".concat(g, "/").concat(t)) : h.push("/add/".concat(t)) : h.push("/add/".concat(f || "HYPRA", "/").concat(t))
+                        f === t ? g ? h.push("/add/".concat(g, "/").concat(t)) : h.push("/add/".concat(t)) : h.push("/add/".concat(f || "ARBITRUM", "/").concat(t))
                     }, [f, h, g]),
                     ue = Object(r.useCallback)(() => {
                         q(!1), J && D(""), G("")
