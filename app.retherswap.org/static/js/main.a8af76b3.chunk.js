@@ -4688,17 +4688,17 @@
                         color: "red",
                         marginBottom: "12px"
                     }
-                }, "You're on the Ethereum network. Please switch to the Hypra Network."), m && l.a.createElement("div", {
+                }, "You're on the Ethereum network. Please switch to the Arbitrum Network."), m && l.a.createElement("div", {
                     style: {
                         color: "red",
                         marginBottom: "12px"
                     }
-                }, "You're on the Binance Smart Chain. Please switch to the Hypra Network."), b && l.a.createElement("div", {
+                }, "You're on the Binance Smart Chain. Please switch to the Arbitrum Network."), b && l.a.createElement("div", {
                     style: {
                         color: "red",
                         marginBottom: "12px"
                     }
-                }, "You're on the Polygon Mainnet. Please switch to the Hypra Network."), l.a.createElement(g, {
+                }, "You're on the Polygon Mainnet. Please switch to the Arbitrum Network."), l.a.createElement(g, {
                     targetChain: jd.HYPRA
                 }), l.a.createElement(g, {
                     targetChain: jd.ETHEREUM
