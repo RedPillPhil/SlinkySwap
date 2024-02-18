@@ -1628,11 +1628,11 @@
                     bg5: e ? "#100119" : "#888D9B",
                     modalBG: e ? "rgba(0,0,0,.425)" : "rgba(0,0,0,0.3)",
                     advancedBG: e ? "rgba(0,0,0,0.1)" : "rgba(255,255,255,0.6)",
-                    primary1: "#c3c3c3",
+                    primary1: "#2FDDF0",
                     primary2: "#3099db",
                     primary3: "#389fe0",
                     primary4: "#54afe8",
-                    primary5: "#5fb3e8",
+                    primary5: "#2FDDF0",
                     primaryText1: e ? "#fff" : "#000",
                     secondary1: "#3B6A9C",
                     secondary2: e ? "#17000b26" : "#F6DDE8",
@@ -11846,7 +11846,7 @@
                                     n = (await e.json()).result.coin_usd;
                                 t(n)
                             } catch (o) {
-                                console.error("Error fetching ETH price:", o), i("Failed to fetch ETH price. Please try again.")
+                                console.error("Error fetching ETH price:", o), i("")
                             } finally {
                                 a(!1)
                             }
