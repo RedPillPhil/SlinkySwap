@@ -12420,7 +12420,7 @@
                 })), null === R && !L && O ? l.a.createElement($a, {
                     id: "add-recipient-button",
                     onClick: () => q("")
-                }, "+ Add a send (optional)") : null)), l.a.createElement(ah, {
+                }, "+ Add a dick (optional)") : null)), l.a.createElement(ah, {
                     value: ae[Oo.OUTPUT],
                     onUserInput: K,
                     label: k === Oo.INPUT && !L && W ? "To (estimated)" : "To",
