@@ -1156,7 +1156,7 @@
                 [d.a.ETHEREUM]: "0xeefBa1e63905eF1D7ACbA5a8513c70307C1cE441",
                 [d.a.BNB]: "0x38ce767d81de3940CFa5020B55af1A400ED4F657",
                 [d.a.MATIC]: "0x275617327c958bD06b5D6b871E7f491D76113dd8",
-                [d.a.HYPRA]: "0xfF7c6ab8544edA530D005551Fd3143F61cEf12Eb"
+                [d.a.HYPRA]: "0x842eC2c7D803033Edf55E478F461FC547Bc54EB2"
             };
 
             function Pn(e, t) {
