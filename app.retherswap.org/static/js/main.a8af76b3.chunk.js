@@ -1091,7 +1091,7 @@
                 1: "etherscan.io",
                 137: "polygonscan.com",
                 56: "bscscan.com",
-                42161: "explorer.hypra.network"
+                42161: "arbiscan.io/"
             };
 
             function bn(e, t, n) {
@@ -4418,8 +4418,8 @@
                     label: "Arbitrum",
                     logoUrl: Ed.a,
                     nativeCurrency: {
-                        name: "Arbitrum One",
-                        symbol: "ARB",
+                        name: "Ethereum",
+                        symbol: "ETH",
                         decimals: 18
                     },
                     rpcUrls: ["https://arb1.arbitrum.io/rpc"]
@@ -11842,7 +11842,7 @@
                     return Object(r.useEffect)(() => {
                         (async () => {
                             try {
-                                const e = await fetch("https://explorer.hypra.network/api?module=stats&action=coinprice"),
+                                const e = await fetch("https://api.coingecko.com/api/v3/simple/price?ids=ethereum&vs_currencies=usd"),
                                     n = (await e.json()).result.coin_usd;
                                 t(n)
                             } catch (o) {
