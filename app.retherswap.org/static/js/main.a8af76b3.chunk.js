@@ -388,7 +388,7 @@
                 S = new d.j(d.a.HYPRA, "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48", 6, "USDC", "USD//C"),
                 N = new d.j(d.a.HYPRA, "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9", 6, "USDT", "Tether USD"),
                 U = (new d.j(d.a.ETHEREUM, "0xc00e94Cb662C3520282E6f5717214004A7f26888", 18, "COMP", "Compound"), new d.j(d.a.ETHEREUM, "0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2", 18, "MKR", "Maker"), new d.j(d.a.ETHEREUM, "0xD46bA6D942050d489DBd938a2C909A5d5039A161", 9, "AMPL", "Ampleforth")),
-                B = (new d.j(d.a.ETHEREUM, "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599", 8, "WBTC", "Wrapped BTC"), new d.j(d.a.HYPRA, "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1", 18, "WETH", "Wrapped ETH"), "0xCf52025D37f68dEdA9ef8307Ba4474eCbf15C33c"),
+                B = (new d.j(d.a.ETHEREUM, "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599", 8, "WBTC", "Wrapped BTC"), new d.j(d.a.HYPRA, "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1", 18, "WETH", "Wrapped Ether"), "0xCf52025D37f68dEdA9ef8307Ba4474eCbf15C33c"),
                 P = {
                     [d.a.ETHEREUM]: new d.j(d.a.ETHEREUM, B, 18, "RETHER", "Retherswap Token"),
                     [d.a.BNB]: new d.j(d.a.BNB, B, 18, "RETHER", "Retherswap Token"),
