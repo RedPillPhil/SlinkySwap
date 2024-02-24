@@ -382,7 +382,7 @@
                     [0, "# Retherswap Grants Program v0.1\n\n*Test*\n\n## Summary:\n*Just a test*\nIf this program proves successful, we hope it will inspire others to follow suit and create their own funding committees for allocating treasury capital\u2014ideally with different specializations.\n"]
                 ]),
                 C = "0x0000000000000000000000000000000000000000",
-                T = "0xb4315e873dBcf96Ffd0acd8EA43f689D8c20fB30",
+                T = "0xbee5c10cf6e4f68f831e11c1d9e59b43560b3642",
                 R = new d.j(d.a.HYPRA, "0xCf52025D37f68dEdA9ef8307Ba4474eCbf15C33c", 18, "RETHER", "Retherswap Token"),
                 I = new d.j(d.a.BNB, "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56", 6, "BUSD", "BUSD Token"),
                 S = new d.j(d.a.HYPRA, "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48", 6, "USDC", "USD//C"),
@@ -2794,7 +2794,7 @@
                     console.debug('Failed to parse input amount: "'.concat(e, '"'), n)
                 }
             }
-            const Lo = ["0x8e42f2F4101563bF679975178e880FD87d3eFd4e", T];
+            const Lo = ["0xaE4EC9901c3076D0DdBe76A520F9E90a6227aCB7", T];
 
             function Wo(e, t) {
                 return e.route.path.some(e => e.address === t) || e.route.pairs.some(e => e.liquidityToken.address === t)
@@ -3999,7 +3999,7 @@
                     maxHeight: 90
                 }, l.a.createElement(Ss, null, m ? l.a.createElement(Bs, null, l.a.createElement(Rs, {
                     onClick: x
-                }, l.a.createElement(Is, null)), l.a.createElement(Ns, null, m instanceof a.a ? "Wrong Network" : "Error connecting"), l.a.createElement(Us, null, m instanceof a.a ? l.a.createElement("h5", null, "Please connect to Hypra Network.") : "Error connecting. Try refreshing the page.")) : s && b === Ws ? l.a.createElement(Mc, {
+                }, l.a.createElement(Is, null)), l.a.createElement(Ns, null, m instanceof a.a ? "Wrong Network" : "Error connecting"), l.a.createElement(Us, null, m instanceof a.a ? l.a.createElement("h5", null, "Please connect to Abitrum Network.") : "Error connecting. Try refreshing the page.")) : s && b === Ws ? l.a.createElement(Mc, {
                     toggleWalletModal: x,
                     pendingTransactions: t,
                     confirmedTransactions: o,
@@ -8941,7 +8941,7 @@
                     groupSeparator: ","
                 })) : "".concat(null !== (t = null === (n = y) || void 0 === n ? void 0 : n.toSignificant(4, {
                     groupSeparator: ","
-                })) && void 0 !== t ? t : "-", " HYP"))), l.a.createElement(tt, null, l.a.createElement(Or.white, null, " Pool rate "), l.a.createElement(Or.white, null, c ? c.active ? "".concat(null === (a = c.totalRewardRate) || void 0 === a || null === (r = a.multiply(X)) || void 0 === r ? void 0 : r.toFixed(0, {
+                })) && void 0 !== t ? t : "-", " ETH"))), l.a.createElement(tt, null, l.a.createElement(Or.white, null, " Pool rate "), l.a.createElement(Or.white, null, c ? c.active ? "".concat(null === (a = c.totalRewardRate) || void 0 === a || null === (r = a.multiply(X)) || void 0 === r ? void 0 : r.toFixed(0, {
                     groupSeparator: ","
                 }), " / week") : "0 / week" : "-"))), b && l.a.createElement(l.a.Fragment, null, l.a.createElement(Xe, null), l.a.createElement(LE, {
                     showBackground: !0
@@ -9625,7 +9625,7 @@
                     groupSeparator: ","
                 })) : "".concat(null !== (m = null === (p = Z) || void 0 === p ? void 0 : p.toSignificant(4, {
                     groupSeparator: ","
-                })) && void 0 !== m ? m : "-", " HYP")))), l.a.createElement(qv, null, l.a.createElement(Pe, {
+                })) && void 0 !== m ? m : "-", " ETH")))), l.a.createElement(qv, null, l.a.createElement(Pe, {
                     gap: "sm"
                 }, l.a.createElement(Or.body, {
                     style: {
@@ -11298,9 +11298,9 @@
                     }
                 }, de ? l.a.createElement(er, {
                     to: "/remove/".concat(y === d.c ? d.n[w].address : E, "/").concat(x === d.c ? d.n[w].address : v)
-                }, "Receive wHYP") : ue ? l.a.createElement(er, {
+                }, "Receive WETH") : ue ? l.a.createElement(er, {
                     to: "/remove/".concat(y && Object(d.o)(y, d.n[w]) ? "ETH" : E, "/").concat(x && Object(d.o)(x, d.n[w]) ? "ETH" : v)
-                }, "Receive HYP") : null) : null))), W && l.a.createElement(l.a.Fragment, null, l.a.createElement(ah, {
+                }, "Receive ETH") : null) : null))), W && l.a.createElement(l.a.Fragment, null, l.a.createElement(ah, {
                     value: X[Vx.LIQUIDITY],
                     onUserInput: te,
                     onMax: () => {
@@ -11851,7 +11851,7 @@
                                 a(!1)
                             }
                         })()
-                    }, []), l.a.createElement(dA, null, n && l.a.createElement("p", null, "Loading..."), !n && o && l.a.createElement("p", null, o), !n && !o && l.a.createElement(l.a.Fragment, null, "HYP $", e))
+                    }, []), l.a.createElement(dA, null, n && l.a.createElement("p", null, "Loading..."), !n && o && l.a.createElement("p", null, o), !n && !o && l.a.createElement(l.a.Fragment, null, "ETH $", e))
                 };
             var mA;
             const pA = ve.default.div(mA || (mA = Object(he.a)(["\n  position: relative;\n  padding: 12px 1rem 0px 1.5rem;\n  margin-bottom: 0.4rem;\n  width: 100%;\n  color: ", ";\n"])), e => {
@@ -12066,7 +12066,7 @@
                                     value: "0x".concat(c.raw.toString(16))
                                 });
                                 s(e, {
-                                    summary: "Wrap ".concat(c.toSignificant(6), " HYP to wHYP")
+                                    summary: "Wrap ".concat(c.toSignificant(6), " ETH to WETH")
                                 })
                             } catch (e) {
                                 console.error("Could not deposit", e)
@@ -12079,7 +12079,7 @@
                             try {
                                 const e = await o.withdraw("0x".concat(c.raw.toString(16)));
                                 s(e, {
-                                    summary: "Unwrap ".concat(c.toSignificant(6), " wHYP to HYP")
+                                    summary: "Unwrap ".concat(c.toSignificant(6), " WETH to ETH")
                                 })
                             } catch (e) {
                                 console.error("Could not withdraw", e)
